@@ -1,0 +1,204 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>BISTRO BURGER</title>  
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+</head>  
+<body>  
+    <header>  
+        <div class="container-hero">  
+            <div class="container hero">  
+                <div class="customer-support">  
+                    <i class="fa-solid fa-headset"></i>  
+                    <div class="content-customer-support">  
+                        <span class="text">Soporte al cliente</span>  
+                        <span class="number">123-456-7890</span>  
+                    </div>  
+                </div>  
+                <div class="container-logo">  
+                    <i class="fa-solid fa-burger"></i>  
+                    <h1 class="logo"><a href="/">BISTRO BURGER</a></h1>  
+                </div>  
+                <div class="container-user">  
+                    <i class="fa-solid fa-user"></i>  
+                    <i class="fa-solid fa-basket-shopping"></i>  
+                    <div class="content-shopping-cart">  
+                        <span class="text">Carrito</span>  
+                        <span class="number">(0)</span>  
+                    </div>  
+                </div>  
+            </div>  
+        </div>  
+        <div class="container-navbar">  
+            <nav class="navbar container">  
+                <i class="fa-solid fa-bars"></i>  
+                <ul class="menu">  
+                    <li><a href="#">Inicio</a></li>  
+                    <li><a href="#">Hamburguesa Vegetariana</a></li>  
+                    <li><a href="#">Hamburguesa de Pescado</a></li>  
+                    <li><a href="#">Hamburguesa 3 Carnes</a></li>  
+                    <li><a href="#">Más</a></li>  
+                    <li><a href="#">Blog</a></li>  
+                </ul>  
+                <form class="search-form">  
+                    <input type="search" placeholder="Buscar..." />  
+                    <button class="btn-search">  
+                        <i class="fa-solid fa-magnifying-glass"></i>  
+                    </button>  
+                </form>  
+            </nav>  
+        </div>  
+    </header>  
+
+    <!-- Carrusel de Bootstrap -->
+    <div id="bistroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#bistroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#bistroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#bistroCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/como_fazer_hamburguer_caseiro_1-1.jpg" class="d-block w-100" alt="Hamburguesas Irresistibles">
+                <div class="carousel-caption d-none d-md-block content-banner">
+                    <p>Hamburguesas Irresistibles</p>
+                    <h2>100% Carne Fresca <br />Sabor Inigualable</h2>
+                    <a href="#" class="btn btn-primary">Ordena ahora</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/descarga (2).jpg" class="d-block w-100" alt="Ofertas">
+                <div class="carousel-caption d-none d-md-block content-banner">
+                    <p>Disfruta Nuestras Ofertas</p>
+                    <h2>Calidad y Sabor en Cada Bocado</h2>
+                    <a href="#" class="btn btn-primary">Ver Menú</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/WhatsApp Image 2025-04-09 at 18.08.13.jpeg" class="d-block w-100" alt="Hamburguesas Saludables">
+                <div class="carousel-caption d-none d-md-block content-banner">
+                    <p>Lo Mejor Para Tu Estilo de Vida</p>
+                    <h2>Suplementos y Hamburguesas Saludables</h2>
+                    <a href="#" class="btn btn-primary">Compra Ahora</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#bistroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bistroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <main>  
+        <section class="container top-categories">  
+            <h1 class="heading-1">Mejores Categorías</h1>  
+            <div class="container-categories">  
+                <div class="card-category category-moca">  
+                    <p>Hamburguesa Negra</p>  
+                    <span>Ver más</span>  
+                </div>  
+                <div class="card-category category-expreso">  
+                    <p>Hamburguesa con Queso</p>  
+                    <span>Ver más</span>  
+                </div>  
+                <div class="card-category category-capuchino">  
+                    <p>Hamburguesa Dinamita</p>  
+                    <span>Ver más</span>  
+                </div>  
+            </div>  
+        </section>  
+
+        <section class="container top-products">  
+            <h1 class="heading-1">Mejores Productos</h1>  
+            <div class="container-products">  
+                <!-- Producto 1 -->  
+                <div class="card-product">  
+                    <div class="container-img">  
+                        <img src="img/Double-Del-01-scaled.webp" alt="Hamburguesa Doble Delicia" />  
+                        <span class="discount">-13%</span>     
+                    </div>  
+                    <div class="content-card-product">  
+                        <h3>Hamburguesa Doble Delicia</h3>  
+                        <span class="add-cart">  
+                            <i class="fa-solid fa-basket-shopping"></i>  
+                        </span>  
+                        <p class="price">$7000 <span>$8500</span></p>  
+                    </div>  
+                </div>  
+
+                <!-- Producto 2 -->  
+                <div class="card-product">  
+                    <div class="container-img">  
+                        <img src="img/Wendy's Big Bacon Cheddar Chicken Sandwich.jpg" alt="Hamburguesa Clásica" />  
+                        <span class="discount">-22%</span>    
+                    </div>  
+                    <div class="content-card-product">  
+                        <h3>Hamburguesa Clásica</h3>  
+                        <span class="add-cart">  
+                            <i class="fa-solid fa-basket-shopping"></i>  
+                        </span>  
+                        <p class="price">$8000 <span>$10000</span></p>  
+                    </div>  
+                </div>  
+
+                <!-- Producto 3 -->  
+                <div class="card-product">  
+                    <div class="container-img">  
+                        <img src="img/Hamburger Or Cheeseburger With Meat And Cheese Fast Food Meal, Burger, Hamburger, Cheeseburger PNG Transparent Image and Clipart for Free Download.jpg" alt="Hamburguesa Australiana" />  
+                    </div>  
+                    <div class="content-card-product">  
+                        <h3>Hamburguesa Australiana</h3>  
+                        <span class="add-cart">  
+                            <i class="fa-solid fa-basket-shopping"></i>  
+                        </span>  
+                        <p class="price">$6900</p>  
+                    </div>  
+                </div>  
+
+                <!-- Producto 4 -->  
+                <div class="card-product">  
+                    <div class="container-img">  
+                        <img src="img/descarga.jpg" alt="Hamburguesa Fría" />  
+                    </div>  
+                    <div class="content-card-product">  
+                        <h3>Hamburguesa Fría</h3>  
+                        <span class="add-cart">  
+                            <i class="fa-solid fa-basket-shopping"></i>  
+                        </span>  
+                        <p class="price">$8000</p>  
+                    </div>  
+                </div>  
+            </div>  
+        </section>  
+    </main>  
+
+    <footer>  
+        <div class="copyright">  
+            <p>  
+                Desarrollado &copy; 2025 BISTRO BURGER. Todos los derechos reservados.  
+            </p>  
+        </div>  
+    </footer>  
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>  
+        // Inicializar el carrusel de Bootstrap
+        var myCarousel = document.querySelector('#bistroCarousel');
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 5000, // Cambia cada 5 segundos
+            wrap: true // Permite que el carrusel vuelva al principio
+        });
+    </script>  
+</body>  
+</html>
